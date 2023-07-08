@@ -124,22 +124,20 @@ html {
 }
 .input {
     height: 100vh;
-    background-image: url('../gambar/kosmetikk.jpg');
+    background-image: url('../gambar/kosmetikk.avif');
     background-size: cover;
 }
 
 .isi-home p {
-    background-color: #000;
     border-radius: 10px;
     width: 350px;
-    text-align: center;
     padding: 5px;
     margin-top: 1%;
 }
 
 #list-barang-home {
     height: 100vh;
-    background-image: url('../gambar/kosmetikk.jpg');
+    background-image: url('../gambar/kosmetikk.avif');
     background-size: cover;
 }
 

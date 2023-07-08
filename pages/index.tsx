@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import Head from 'next/head';
+import Image from 'next/image';
+import Logo from '@/gambar/logo.jpg';
 
 export default function Beranda() {
   const halaman = (event) => {
@@ -19,15 +21,7 @@ export default function Beranda() {
         </ul>
       </div>
       <div className="isi-home">
-        <p style={{color: "#eb4b22", fontSize: "15px", lineHeight: "20px", fontFamily: "sans-serif", letterSpacing: "1px"}}>
-          You don't need to touch up many times<br />
-          when you see our powder, because it's <br />
-          guaranteed to last a long time and won't <br />
-          make your face gray all day long!<br /><br />
-          Our products are guaranteed 100% original <br />
-          and cheaper than other stores. Not satisfied? <br />
-          We'll give you our money back!
-        </p>
+        <Image src={Logo} width={195} />
       </div>
     </div>
   )

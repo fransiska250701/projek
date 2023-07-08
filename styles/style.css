@@ -1,0 +1,233 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bg-home {
+    background-image: url('../gambar/kosmetik.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.header-home {
+    background-color: salmon;
+    height: 50px;
+}
+
+.header-home ul {
+    float: right;
+    width: 25%;
+    margin-top: 1%;
+}
+
+.header-home ul li {
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.header-home ul li a {
+    text-decoration: none;
+    font-size: 23px;
+    transition: 0.25s;
+}
+
+.header-home ul li a:hover {
+    color: #81d4f4;
+}
+
+.form-input {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.form-input table label {
+    font-size: 15px;
+}
+
+.form-input input[type = text] {
+    font-size: 15px;
+    outline: none;
+    border: 1px solid salmon;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px;
+    background: none;
+}
+
+.form-input input[type = text]::placeholder {
+    color: grey;
+}
+
+.form-input input[type = submit] {
+    padding: 5px;
+    border-radius: 5px;
+    width: 100px;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    background-color: salmon;
+    color: #fff;
+    transition: 0.25s;
+}
+
+.form-input input[type = submit]:hover {
+    color: #000;
+    background-color: #81d4f4;
+}
+.input {
+    height: 100vh;
+    background-image: url('../gambar/kosmetikk.jpg');
+    background-size: cover;
+}
+
+.isi-home p {
+    background-color: #000;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 1%;
+}
+
+#list-barang-home {
+    height: 100vh;
+    background-image: url('../gambar/kosmetikk.jpg');
+    background-size: cover;
+}
+
+#list-barang-home .kiri-list {
+    float: left;
+    width: 50%;
+}
+
+#formedit {
+    margin-top: 20%;
+    margin-left: 15%;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: max-content;
+    height: max-content;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 20px 80px 20px 80px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+#formedit input[type = text] {
+    outline: none;
+    border: 1px solid salmon;
+    background: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 5px;
+}
+
+#formedit input[type = submit] {
+    background-color: salmon;
+    color: #fff;
+    outline: none;
+    border: 0;
+    font-size: 13px;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 5px 40px 5px 40px;
+    transition: 0.25s;
+}
+
+#formedit input[type = submit]:hover {
+    background-color: #81d4f4;
+    color: #000;
+}
+
+#list-barang-home .kanan-list {
+    float: left;
+    width: 50%;
+    overflow-y: auto;
+    height: 95.8%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#list-barang-home .kanan-list ul {
+    background-color: salmon;
+    margin-bottom: 5%;
+    width: 350px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 20%;
+}
+
+#list-barang-home .kanan-list ul li button {
+    background-color: #81d4f4;
+    color: #000;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    width: 80px;
+    border-radius: 5px;
+    padding: 5px 0px 5px 0px;
+    transition: 0.25s;
+}
+
+#list-barang-home .kanan-list ul li button:hover {
+    color: salmon;
+}
+
+.isi-stok ul {
+    margin-top: 5%;
+}
+
+.isi-stok ul li {
+    margin-left: 5%;
+    display: inline-block;
+}
